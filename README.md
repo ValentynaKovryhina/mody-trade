@@ -3,7 +3,7 @@ Responsive<br>
 Mobile-first<br>
 PerfectPixel
 ___
-link to open in browser https://valentynakovryhina.github.io/mody-trade/crs/
+link to open in browser https://valentynakovryhina.github.io/mody-trade/src/
 ___
 implementation on the site https://imaris.ua/portfolio/modytrade/
 ___
