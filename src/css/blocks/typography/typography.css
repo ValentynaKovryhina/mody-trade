@@ -1,0 +1,37 @@
+.typography {
+    position: relative;
+    background: #2E2E2E;
+    border-top: 8px solid #FFFFFF;
+}
+
+.typography:before {
+    position: absolute;
+    content: "";
+    width: 320px;
+    height: 125px;
+    background: url(../../../assets/img/backgrounds/bg_topogrphy.svg);
+    right: 0;
+    top: 0;
+}
+
+.typography h2, .typography p {
+    transform: translate(-100px, 0);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.typography._active h2, .typography._active p {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.typography:before {
+    transform: translate(100px, 0);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.typography._active:before {
+    transform: translate(0, 0);
+    opacity: 1;
+}

@@ -1,0 +1,20 @@
+@media (min-width: 1200px) {
+    .typography {
+        padding-top: 50px;
+        padding-bottom: 47px;
+    }
+    .typography:before {
+        width: 749px;
+        height: 292px;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url(../../../assets/img/backgrounds/bg_topogrphy_1.svg);
+    }
+    .typography:before {
+        transform: translate(100px, -50%);
+    }
+    .typography._active:before {
+        transform: translate(0, -50%);
+    }
+}

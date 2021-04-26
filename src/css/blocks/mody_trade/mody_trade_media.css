@@ -1,0 +1,86 @@
+@media (min-width: 1200px) {
+    .mody_trade__header {
+        padding: 8px 0 46px;
+    }
+    .mody_trade__header h3 {
+        font-size: 20px;
+        line-height: 23px;
+        padding-top: 20px;
+    }
+    .mody_trade__header p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .mody_trade__header a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .mody_trade__logo {
+        padding: 40px 10px 52px;
+    }
+    .mody_trade__logo img {
+        width: 107px;
+        opacity: 0;
+    }
+    .mody_trade__logo:before {
+        width: 109px;
+        height: 1400px;
+    }
+    .mody_trade__tasks {
+        position: relative;
+        padding-top: 46px;
+    }
+    .mody_trade__about_project {
+        padding-top: 26px;
+    }
+    .mody_trade__tasks .mody_trade__about_project__exlogo {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        bottom: 100%;
+        padding-bottom: 113px;
+        padding-left: 50px;
+        padding: 0 0 327px 50px;
+    }
+    .mody_trade__tasks .mody_trade__about_project__exlogo img {
+        display: block;
+        width: 329px;
+        height: 54px;
+    }
+    .mody_trade__tasks h3 {
+        font-size: 32px;
+        line-height: 37px;
+    }
+    .mody_trade__tasks .mody_trade__about_project__exlogo:before {
+        font-size: 40px;
+        line-height: 50px;
+        bottom: 215px;
+        left: 0;
+        right: auto;
+        top: auto;
+    }
+    .mody_trade__tasks .mody_trade__about_project__exlogo:after {
+        width: 50px;
+        height: 65px;
+        background: url(../../../assets/img/arrow_logo_2.svg);
+        bottom: 238px;
+        right: 112px;
+        top: auto;
+    }
+    .mody_trade__features, .mody_trade__analysis {
+        padding-top: 42px;
+    }
+    .mody_trade__header_navigation {
+        padding-bottom: 12px;
+    }
+    .mody_trade__header_navigation a {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+    .mody_trade__header_navigation span {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+}

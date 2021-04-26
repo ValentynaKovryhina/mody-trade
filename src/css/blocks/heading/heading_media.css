@@ -1,0 +1,30 @@
+@media (min-width: 1200px) {
+    .heading {
+        font-size: 72px;
+        line-height: 84px;
+        padding-bottom: 24px;
+    }
+    .heading:before {
+        width: 524px;
+        top: -28px;
+    }
+    .heading_small {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .heading_topography {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 84px;
+    }
+    .heding_results {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 8px;
+    }
+    .heading_social {
+        max-width: 800px;
+        font-weight: 900;
+    }
+}

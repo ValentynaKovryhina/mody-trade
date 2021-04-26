@@ -1,0 +1,10 @@
+.facts {
+	transform: translate(-100px, 0);
+	opacity: 0;
+	transition: all 1.2s ease 0s;
+}
+
+.facts._active {
+	transform: translate(0, 0);
+	opacity: 1;
+}

@@ -1,0 +1,53 @@
+.customer_wishes {
+    overflow: hidden;
+}
+
+.customer_wishes_img_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.customer_wishes .customer_wishes_bull {
+    width: 120px;
+    padding-left: 14px;
+}
+
+.customer_wishes .customer_wishes_bear {
+    width: 94px;
+    padding-right: 36px;
+    padding-top: 8px;
+}
+
+.customer_wishes img {
+    height: auto;
+}
+
+.container_customer_wishes h2, .container_customer_wishes p {
+    transform: translate(-100px, 0);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.container_customer_wishes._active h2, .container_customer_wishes._active p {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.customer_wishes_img_container img {
+    transform: translate(0, 100px);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.customer_wishes_img_container img:last-child {
+    transition: all 1.2s ease 0.4s;
+}
+
+.customer_wishes_img_container._active img {
+    transform: translate(0, 0);
+    opacity: 1;
+}

@@ -1,0 +1,22 @@
+@media (min-width: 1200px) {
+    .logo_creating .logo_creating_img_1, .logo_creating .logo_creating_img_2 {
+        width: 110px;
+    }
+    .logo_creating .logo_creating_img_4 {
+        width: 245px;
+    }
+    .logo_creating .logo_creating_img_6 {
+        width: 263px;
+    }
+    .logo_creating .logo_creating_img_1 {
+        margin-right: 75px;
+    }
+    .logo_creating img {
+        display: block;
+        margin: 0;
+        margin-right: 85px;
+    }
+    .logo_creating img:last-child {
+        margin-right: 0;
+    }
+}

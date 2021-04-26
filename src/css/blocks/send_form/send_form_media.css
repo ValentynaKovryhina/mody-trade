@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+    .send_form {
+        padding-top: 13px;
+        padding-bottom: 32px;
+    }
+    .send_form form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding-top: 16px;
+    }
+    .send_form input {
+        width: none;
+        height: 56px;
+    }
+    .send_form input:first-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

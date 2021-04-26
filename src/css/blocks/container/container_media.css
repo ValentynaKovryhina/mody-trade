@@ -1,0 +1,33 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .container_facts {
+        padding: 12px 32px 30px;
+        border-radius: 10px;
+    }
+    .container_full_width {
+        width: 100%;
+        margin: 0;
+        padding: 50px 48px 20px;
+    }
+    .logo_creating .container_full_width {
+        padding-bottom: 0;
+        padding-top: 43px;
+    }
+    .container_customer_wishes {
+        position: relative;
+        max-width: none;
+        margin: 0 auto;
+    }
+    .container_font_style {
+        justify-content: space-between;
+    }
+    .container_flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}

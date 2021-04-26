@@ -1,0 +1,60 @@
+.logo_creating .logo_creating_img_1, .logo_creating .logo_creating_img_2 {
+    width: 63px;
+    padding-top: 10px;
+}
+
+.logo_creating .logo_creating_img_3, .logo_creating .logo_creating_img_5 {
+    width: 29px;
+    margin-bottom: 38px;
+}
+
+.logo_creating .logo_creating_img_4, .logo_creating .logo_creating_img_6 {
+    width: 159px;
+    margin-bottom: 44px;
+}
+
+.logo_creating .logo_creating_img_6 {S
+    margin-bottom: 15px;
+}
+
+.logo_creating img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_creating .logo_creating_img_1, .logo_creating .logo_creating_img_2 {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.logo_creating .logo_creating_img_1 {
+    margin-right: 42px;
+}
+
+.logo_creating img {
+    transform: translate(-30%, 0);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.logo_creating._active img:nth-child(3) {
+    transition: all 1.2s ease 0.4s;
+}
+
+.logo_creating._active img:nth-child(4) {
+    transition: all 1.2s ease 0.8s;
+}
+
+.logo_creating._active img:nth-child(5) {
+    transition: all 1.2s ease 1.2s;
+}
+
+.logo_creating._active img:nth-child(6) {
+    transition: all 1.2s ease 1.6s;
+}
+
+.logo_creating._active img {
+    transform: translate(0, 0);
+    opacity: 1;
+}

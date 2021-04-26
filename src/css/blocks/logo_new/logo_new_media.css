@@ -1,0 +1,49 @@
+@media (min-width: 1200px) {
+    .logo_new {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: #2E2E2E;
+    }
+    .logo_new div {
+        height: 532px;
+        width: 33%;
+    }
+    .logo_new .logo_new__var_1 {
+        height: 598px;
+        width: 100%;
+    }
+    .logo_new .logo_new__var_1 img {
+        width: 742px;
+        padding-bottom: 80px;
+    }
+    .logo_new .logo_new__var_2 img {
+        width: 439px;
+    }
+    .logo_new .logo_new__var_3 img {
+        width: 640px;
+        max-width: none;
+    }
+    .logo_new .logo_new__var_4 img {
+        width: 523px;
+        padding-bottom: 70px;
+    }
+    .logo_new img {
+        max-width: 80%;
+    }
+    .logo_new .logo_new__var_1:before {
+        font-size: 40px;
+        line-height: 50px;
+        top: 39px;
+        left: 50%;
+        transform: translateX(-580px);
+    }
+    .logo_new .logo_new__var_1:after {
+        width: 19px;
+        height: 24px;
+        background: url(../../../assets/img/arrow_logo_4.svg);
+        top: 77px;
+        left: 50%;
+        transform: translateX(-380px);
+    }
+}

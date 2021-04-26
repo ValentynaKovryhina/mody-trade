@@ -1,0 +1,51 @@
+.contact_us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: #3B3B46;
+    border-radius: 16px 16px 0px 0px;
+    overflow: hidden;
+    border-bottom: 1px solid #3B3B46;
+    margin-top: -48px;
+    position: relative;
+    z-index: 5;
+}
+
+.contact_us ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.contact_us>a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.contact_us__callback, .contact_us__chatbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 48px;
+    border-left: 1px solid var(--_50_gray);
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contact_us .icon-callback, .contact_us .icon-chat {
+    font-size: 32px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.contact_us .icon-chat {
+    font-size: 24px;
+}

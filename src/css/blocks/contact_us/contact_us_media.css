@@ -1,0 +1,37 @@
+@media (min-width: 1200px) {
+  .contact_us {
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    margin-top: 0;
+    overflow: visible;
+    border-radius: 24px 0px 0px 24px;
+    border: 0;
+    font-size: 0;
+    top: 380px;
+    right: 0;
+    overflow: hidden;
+  }
+  .contact_us>a {
+    display: none;
+  }
+  .contact_us ul {
+    display: inline-block;
+  }
+  .contact_us__callback, .contact_us__chatbot {
+    width: 80px;
+    height: 80px;
+    border-left: none;
+  }
+  .contact_us__callback {
+    border-bottom: 1px solid var(--_50_gray);
+  }
+  .contact_us .icon-callback {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .contact_us .icon-chat {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}

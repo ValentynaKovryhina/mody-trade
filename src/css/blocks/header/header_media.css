@@ -1,0 +1,90 @@
+@media (min-width: 1200px) {
+  .header {
+    padding: 24px 10px;
+    border-radius: 0;
+  }
+  .header__nav__button {
+    display: none;
+  }
+  .header__nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    background: transparent;
+  }
+  .header__nav ul a {
+    margin-left: 20px;
+  }
+  .header__nav ul li:first-child a {
+    margin-left: 0;
+  }
+  .header__nav__menu a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--graphit_imaris);
+    padding: 0;
+  }
+  .header__nav__menu .active {
+    color: var(--orange_imaris);
+    position: relative;
+    padding-right: 20px;
+  }
+  .header__nav__menu .active:before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 10px;
+    background: url(../../../assets/img/shevron.svg);
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .header__contact_us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__contact_us__send_form {
+    width: 236px;
+    height: 56px;
+    border-radius: 28px;
+    padding: 17px 5px;
+    ;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .header {
+    padding: 24px 56px;
+  }
+  .header__nav ul a {
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header__contact_us__tel {
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: var(--_50_gray);
+    margin-right: 10px;
+  }
+  .header__contact_us__tel {
+    margin-right: 40px;
+  }
+}

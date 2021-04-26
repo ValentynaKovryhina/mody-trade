@@ -1,0 +1,109 @@
+.illustration_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.illustration {
+    position: relative;
+    width: 244px;
+    height: 117px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.illustration:last-child {
+    margin-bottom: 0;
+}
+
+.illustration:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    bottom: 18px;
+    left: 18px;
+    background: red;
+}
+
+.illustration:after {
+    position: absolute;
+    content: "";
+}
+
+.illustration_1:before {
+    width: 63px;
+    height: 31px;
+    background: url(../../../assets/img/facts_illustration/illus_1.png);
+}
+
+.illustration_2:before {
+    width: 146px;
+    height: 22px;
+    background: url(../../../assets/img/facts_illustration/illus_2.png);
+    transform: translate(-4px, -7px);
+}
+
+.illustration_3:before {
+    width: 66px;
+    height: 44px;
+    background: url(../../../assets/img/facts_illustration/illus_3.png);
+    transform: translate(-3px, 1px);
+}
+
+.illustration_4:before {
+    width: 47px;
+    height: 47px;
+    background: url(../../../assets/img/facts_illustration/illus_4.png);
+    transform: translate(-3px, 1px);
+}
+
+.illustration_5:before {
+    width: 160px;
+    height: 47px;
+    background: url(../../../assets/img/facts_illustration/illus_5.png);
+}
+
+.illustration_6:before {
+    width: 134px;
+    height: 48px;
+    background: url(../../../assets/img/facts_illustration/illus_6.png);
+    transform: translate(-3px, 1px);
+}
+
+.illustration_1:after, .illustration_3:after {
+    width: 10px;
+    height: 10px;
+    background: url(../../../assets/img/arrow_up.svg);
+    top: 36px;
+    left: 60px;
+}
+
+.illustration_2:after {
+    width: 20px;
+    height: 9px;
+    background: url(../../../assets/img/arrow_up_double.svg);
+    top: 36px;
+    right: 5px;
+}
+
+.illustration_5:after {
+    width: 10px;
+    height: 10px;
+    background: url(../../../assets/img/arrow_up_slide.svg);
+    top: 36px;
+    right: 100px;
+}
+
+.illustration_6:after {
+    width: 10px;
+    height: 9px;
+    background: url(../../../assets/img/arrow_up_slide_1.svg);
+    top: 36px;
+    right: 177px;
+}

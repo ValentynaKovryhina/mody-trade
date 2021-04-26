@@ -1,0 +1,41 @@
+@media (min-width: 1200px) {
+    .gradients {
+        padding-top: 45px;
+    }
+    .gradients .gradients_illustation {
+        padding: 80px 0;
+        font-size: 0;
+    }
+    .gradients .gradients_illustation_item {
+        display: inline-block;
+        width: 386px;
+        height: 190px;
+        border-radius: 48px 0px 48px 48px;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .gradients .gradients_illustation_item:last-child {
+        margin-right: 0;
+    }
+    .gradients .gradients_illustation_item:before {
+        width: 339px;
+        height: 59px;
+        left: 23px;
+        top: 24px;
+        border-radius: 30px 0px 30px 30px;
+        box-shadow: 0 83px 0 0 #2E2E2E;
+    }
+    .gradients .gradients_illustation_item span {
+        font-size: 16px;
+        top: 127px;
+        left: 47px;
+    }
+    .gradients .gradients_illustation_item span:last-child {
+        left: auto;
+        right: 47px;
+    }
+    .gradients .gradients_promo {
+        width: 100%;
+        height: 1133px;
+    }
+}

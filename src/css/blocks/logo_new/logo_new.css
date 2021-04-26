@@ -1,0 +1,94 @@
+.logo_new div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+}
+
+.logo_new .logo_new__var_1 {
+    position: relative;
+    background: #FFFFFF;
+}
+
+.logo_new .logo_new__var_2 {
+    background: #78C332;
+}
+
+.logo_new .logo_new__var_3 {
+    background: #2E2E2E;
+}
+
+.logo_new .logo_new__var_4 {
+    background: linear-gradient(233deg, #78C332, #FF383B);
+}
+
+.logo_new .logo_new__var_1 img, .logo_new .logo_new__var_2 img, .logo_new .logo_new__var_4 img {
+    width: 200px;
+}
+
+.logo_new .logo_new__var_3 img {
+    width: 320px;
+}
+
+.logo_new img {
+    height: auto;
+}
+
+.logo_new .logo_new__var_1 img {
+    padding-bottom: 12px;
+}
+
+.logo_new .logo_new__var_4 img {
+    padding-bottom: 22px;
+}
+
+.logo_new .logo_new__var_1:before {
+    position: absolute;
+    content: "Новый логотип";
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #31261D;
+    top: 13px;
+    left: 20px;
+}
+
+.logo_new .logo_new__var_1:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 12px;
+    background: url(../../../assets/img/arrow_logo_3.svg);
+    top: 32px;
+    left: 74px;
+}
+
+.logo_new__var_1 img {
+    opacity: 0;
+    transition: all 1.2s ease 0.2s;
+}
+
+.logo_new__var_1._active img {
+    opacity: 1;
+}
+
+.logo_new__var_2, .logo_new__var_3, .logo_new__var_4 {
+    transform: translate(-100px, 0);
+    opacity: 0;
+    transition: all 1.2s ease 0.4s;
+}
+
+.logo_new__var_3._active {
+    transition: all 1.2s ease 0.8s;
+}
+
+.logo_new__var_4._active {
+    transition: all 1.2s ease 1.2s;
+}
+
+.logo_new__var_2._active, .logo_new__var_3._active, .logo_new__var_4._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}

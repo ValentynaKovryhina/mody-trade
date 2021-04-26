@@ -1,0 +1,109 @@
+@media (min-width: 1200px) {
+    .text {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .text_facts {
+        padding-bottom: 19px;
+    }
+    .text_facts:nth-child(7) {
+        padding-bottom: 20px;
+        padding-top: 28px;
+        line-height: 42px;
+    }
+    .text_illustration {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .text_wishes {
+        max-width: 800px;
+        padding-bottom: 48px;
+    }
+    .text_wishes:nth-child(3) {
+        padding-bottom: 46px;
+    }
+    .text_typography {
+        max-width: 800px;
+    }
+    .text_gradients {
+        max-width: 800px;
+        padding-bottom: 73px;
+    }
+    .text_social {
+        padding-left: 20px;
+        max-width: 770px;
+    }
+    .text_social::before {
+        width: 7px;
+        height: 7px;
+        top: 20px;
+        left: 2px;
+    }
+    .text_results {
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 400px;
+        padding-bottom: 17px;
+    }
+    .text_results_head {
+        max-width: 800px;
+        padding-top: 0;
+        font-size: 24px;
+        line-height: 10px;
+        padding-bottom: 35px;
+    }
+    .text_results_price {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 16px;
+        margin-bottom: 15px;
+    }
+    .text_results_btn {
+        width: 242px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .text_results_other {
+        ;
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 210px;
+    }
+    .text_input {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .text_submit {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .text_btn {
+        font-size: 20px;
+        line-height: 28px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .text_address {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 12px;
+    }
+    .text_contacts {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 10px;
+    }
+    .text.text_footer_btn {
+        font-size: 20px;
+        line-height: 23px;
+        max-width: 235px;
+        margin: 14px 0;
+        padding: 21px 32px;
+        border-radius: 32px;
+    }
+    .text_nowrap_xl {
+        white-space: nowrap;
+    }
+}

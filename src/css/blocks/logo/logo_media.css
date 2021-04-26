@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+  .logo {
+    width: 156px;
+    height: 57px;
+    padding-right: 0;
+    order: -1;
+  }
+  .logo_footer {
+    order: 0;
+    min-width: 156px;
+  }
+}

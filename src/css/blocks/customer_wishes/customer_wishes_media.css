@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+    .customer_wishes {
+        padding-top: 44px;
+    }
+    .customer_wishes img {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .customer_wishes .customer_wishes_bull {
+        width: 184px;
+        right: 200px;
+        top: 71px;
+    }
+    .customer_wishes .customer_wishes_bear {
+        width: 149px;
+        right: 15px;
+        top: 252px;
+        padding: 0;
+    }
+}

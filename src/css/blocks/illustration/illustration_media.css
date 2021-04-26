@@ -1,0 +1,9 @@
+@media (min-width: 1200px) {
+    .illustration {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+    .illustration:last-child {
+        margin-right: 0;
+    }
+}

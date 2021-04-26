@@ -1,0 +1,8 @@
+@media (min-width: 1200px) {
+    .font_style {
+        padding: 80px 0;
+    }
+    .font_style .font_style_main, .font_style .font_style_secondary {
+        width: 590px;
+    }
+}

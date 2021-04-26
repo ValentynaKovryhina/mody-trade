@@ -1,0 +1,194 @@
+.mody_trade {
+    padding-bottom: 15px;
+}
+
+.mody_trade__header {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: var(--graphit_imaris);
+    padding: 6px 0 18px;
+}
+
+.mody_trade__header h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.mody_trade__header p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 5px;
+    padding-top: 0;
+}
+
+.mody_trade__header a {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--orange_imaris);
+    text-decoration: none;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: 2px solid var(--orange_imaris);
+    border-radius: 20px;
+    margin: 3px 4px 5px;
+}
+
+.mody_trade__logo {
+    position: relative;
+    background: #0037AE;
+    padding: 16px 3px 20px;
+    box-sizing: border-box;
+}
+
+.mody_trade__logo:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 890px;
+    background: url(../../../assets/img/backgrounds/bg_mody_trade.png);
+    top: 0;
+    right: 0;
+}
+
+.mody_trade__logo img {
+    width: 60px;
+    height: auto;
+    opacity: 0;
+}
+
+.mody_trade__about_project {
+    position: relative;
+}
+
+.mody_trade__about_project .mody_trade__about_project__exlogo {
+    display: none;
+}
+
+.mody_trade__about_project, .mody_trade__tasks, .mody_trade__features, .mody_trade__analysis {
+    padding-right: 80px;
+}
+
+.mody_trade__tasks h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0037AE;
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+
+.mody_trade__tasks .mody_trade__about_project__exlogo {
+    display: inline-block;
+    position: relative;
+    padding: 8px 50px 26px 4px;
+}
+
+.mody_trade__tasks .mody_trade__about_project__exlogo img {
+    display: block;
+    width: 160px;
+    height: 26px;
+}
+
+.mody_trade__tasks .mody_trade__about_project__exlogo:before {
+    position: absolute;
+    content: "Старый логотип";
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #31261D;
+    top: -20px;
+    right: -9px;
+}
+
+.mody_trade__tasks .mody_trade__about_project__exlogo:after {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 13px;
+    background: url(../../../assets/img/arrow_logo.svg);
+    top: -12px;
+    right: 83px;
+}
+
+.mody_trade__header_navigation {
+    padding-bottom: 0;
+}
+
+.mody_trade__header_navigation a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--orange_imaris);
+    border: none;
+    padding: 5px 0;
+}
+
+.mody_trade__header_navigation span {
+    color: #7D7D94;
+}
+
+.mody_trade__about_project, .mody_trade__tasks h2, .mody_trade__tasks h3, .mody_trade__tasks p, .mody_trade__features, .mody_trade__analysis h2, .mody_trade__analysis p, .mody_trade__logo {
+    transform: translate(-100px, 0);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.mody_trade__about_project._active, .mody_trade__tasks._active h2, .mody_trade__tasks._active h3, .mody_trade__tasks._active p, .mody_trade__tasks._active, .mody_trade__features._active, .mody_trade__analysis._active h2, .mody_trade__analysis._active p, .mody_trade__logo._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.mody_trade__analysis._active p:nth-child(2) {
+    transition: all 1.2s ease 0.2s;
+}
+
+.mody_trade__analysis._active p:nth-child(3) {
+    transition: all 1.2s ease 0.4s;
+}
+
+.mody_trade__analysis._active p:nth-child(4) {
+    transition: all 1.2s ease 0.6s;
+}
+
+.mody_trade__tasks div {
+    transform: translate(100px, 0);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.mody_trade__tasks._active div {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.mody_trade__logo:before {
+    transform: translate(120%, 0);
+    opacity: 0;
+    transition: all 1.2s ease 1.2s;
+}
+
+.mody_trade__logo._active:before {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.mody_trade__logo img {
+    transform: translate(0, 50px);
+    opacity: 0;
+    transition: all 1.2s ease 1.2s;
+}
+
+.mody_trade__logo._active img {
+    transform: translate(0, 0);
+    opacity: 1;
+}

@@ -1,0 +1,35 @@
+.font_style {
+    background: linear-gradient(233deg, #78C332, #FF383B);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 29px;
+}
+
+.font_style .font_style_main, .font_style .font_style_secondary {
+    width: 590px;
+    max-width: 100vw;
+    padding: 12px 0;
+}
+
+.font_style .font_style_main img, .font_style .font_style_secondary img {
+    width: 100%;
+    max-width: 590px;
+    height: auto;
+}
+
+.font_style_main, .font_style_secondary {
+    transform: translate(-100px, 0);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.font_style_secondary {
+    transition: all 1.2s ease 0.2s;
+}
+
+.font_style_main._active, .font_style_secondary._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
