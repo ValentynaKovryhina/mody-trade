@@ -1,4 +1,4 @@
-# mody-trade
+# Portfolio page for agency Imaris
 Responsive<br>
 Mobile-first<br>
 PerfectPixel
